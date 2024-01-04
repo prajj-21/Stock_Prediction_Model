@@ -53,7 +53,7 @@ plt.plot(df['Close'])
 plt.xlabel('Date',fontsize=18)
 plt.ylabel('Close Price USD($)', fontsize=18)
 plt.show()
-
+## wokring of model and data
 data=df.filter(['Close'])
 dataset=data.values
 training_data_len=math.ceil(len(dataset)*0.8)
